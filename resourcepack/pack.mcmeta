@@ -1,6 +1,7 @@
 {
     "pack": {
-        "description": "MCEarth Pigs Texture | Syhix",
-        "pack_format": 47
+        "description": "Pigs Addition | Syhix",
+        "pack_format": 48,
+        "supported_formats": 47
     }
 }
