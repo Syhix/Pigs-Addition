@@ -1,7 +1,6 @@
 {
     "pack": {
         "description": "Pigs Addition | Syhix",
-        "pack_format": 63,
-        "supported_formats": 62
+        "pack_format": 64
     }
 }

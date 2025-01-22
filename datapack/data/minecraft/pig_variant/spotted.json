@@ -1,7 +1,16 @@
 {
-    "biomes": [
-        "minecraft:swamp",
-        "minecraft:mangrove_swamp"
-    ],
-    "texture": "minecraft:entity/pig/spotted_pig"
-  }
+	"asset_id": "minecraft:entity/pig/spotted_pig",
+	"model": "normal",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": [
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp"
+                ]
+			},
+			"priority": 0
+		}
+	]
+}

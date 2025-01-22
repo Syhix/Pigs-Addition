@@ -1,4 +1,13 @@
 {
-    "biomes": "minecraft:plains",
-    "texture": "minecraft:entity/pig/dride_muddy_pig"
-  }
+	"asset_id": "minecraft:entity/pig/dride_muddy_pig",
+	"model": "normal",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": "plains"
+			},
+			"priority": 0
+		}
+	]
+}

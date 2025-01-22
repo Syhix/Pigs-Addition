@@ -1,4 +1,13 @@
 {
-    "biomes": "minecraft:snowy_plains",
-    "texture": "minecraft:entity/pig/pale_pig"
-  }
+	"asset_id": "minecraft:entity/pig/pale_pig",
+	"model": "normal",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": "snowy_plains"
+			},
+			"priority": 0
+		}
+	]
+}

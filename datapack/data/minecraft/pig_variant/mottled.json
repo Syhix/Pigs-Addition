@@ -1,4 +1,13 @@
 {
-    "biomes": "#minecraft:is_forest",
-    "texture": "minecraft:entity/pig/mottled_pig"
-  }
+	"asset_id": "minecraft:entity/pig/mottled_pig",
+	"model": "normal",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": "#minecraft:is_forest"
+			},
+			"priority": 0
+		}
+	]
+}
