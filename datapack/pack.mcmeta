@@ -1,6 +1,10 @@
 {
     "pack": {
-        "description": "Pigs Addition | Syhix",
-        "pack_format": 64
+        "description": "Pigs Addition 25w05a | Syhix",
+        "pack_format": 65,
+        "supported_formats": [
+            64,
+            65
+        ]
     }
 }
